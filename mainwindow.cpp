@@ -362,5 +362,5 @@ void MainWindow::RunNewProcess(){
 }
 
 void MainWindow::ShutDown(){
-    system("halt");
+    system("shutdown -h now");
 }
